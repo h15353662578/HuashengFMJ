@@ -39,61 +39,6 @@
       class="app-init scroll-box tab-box mi-tj footer-hack"
       v-show="navListActiveIndex == 0"
     >
-      <swiper :list="bannerList" class="home-swiper"></swiper>
-      <div class="nav-mi-tj clear"></div>
-
-      <div class="shop-item clear">
-        <img
-          @click="$router.openPage('/detail/1001')"
-          src="https://s3.ax1x.com/2020/12/09/rCEI6H.png"
-          class="fl href"
-          alt=""
-        />
-        <img
-          @click="$router.openPage('/detail/1002')"
-          src="https://s3.ax1x.com/2020/12/09/rCELAP.png"
-          class="fr href"
-          style="margin-bottom: 0.05rem"
-          alt=""
-        />
-        <img
-          @click="$router.openPage('/detail/1005')"
-          src="http://qiniu.verydog.cn//show.liluo.cc/2018011114550596671.png"
-          class="fr href"
-          alt=""
-        />
-      </div>
-
-      <div class="shop-item clear">
-        <img
-          @click="$router.openPage('/detail/1003')"
-          v-lazy="
-            'http://qiniu.verydog.cn//show.liluo.cc/a589d24e74c4d96191dd46635054e804.jpg'
-          "
-          alt=""
-        />
-      </div>
-
-      <div class="shop-item clear">
-        <img
-          @click="$router.openPage('/detail/1006')"
-          v-lazy="
-            'http://qiniu.verydog.cn//show.liluo.cc/2018011115034174111.png'
-          "
-          alt=""
-        />
-      </div>
-
-      <div class="shop-item clear">
-        <img
-          @click="$router.openPage('/detail/1007')"
-          v-lazy="
-            'http://qiniu.verydog.cn//show.liluo.cc/2018011115033089933.png'
-          "
-          alt=""
-        />
-      </div>
-
       <div class="shop-item">
         <div class="shop-box clear">
           <div
@@ -512,74 +457,11 @@ export default {
       ],
       shoplist01: [
         {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011213403719963.png",
-          title: "红米Note 4X 32GB",
-          con: "多彩金属 / 超长续航",
-          money: 899,
-          href: "/detail/1010",
+          src: "https://s3.ax1x.com/2020/12/09/rCKV9x.png",
+          title: "康师傅冰红茶",
+          con: "康师傅 / 冰红茶",
+          money: 2.5,
+          href: "/detail/1001",
         },
       ],
 
@@ -591,12 +473,11 @@ export default {
       ],
       shoplist02: [
         {
-          src:
-            "http://qiniu.verydog.cn//show.liluo.cc/93cc1fa15e0e9af87e37cba047d8186e.jpg",
-          title: "米家四位四控插线板",
-          con: "四位分控，随用随开",
-          money: 89,
-          href: "/detail/1012",
+          src: "https://s3.ax1x.com/2020/12/09/rCKcvT.jpg",
+          title: "康师傅红烧牛肉面",
+          con: "大桶更尽兴",
+          money: 4.5,
+          href: "/detail/1002",
         },
         {
           src:
@@ -798,27 +679,6 @@ export default {
           money: 498,
           href: "/detail/1018",
         },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011317120865819.png",
-          title: "小米影视会员卡",
-          con: "畅享海量片库",
-          money: 498,
-          href: "/detail/1018",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011317120865819.png",
-          title: "小米影视会员卡",
-          con: "畅享海量片库",
-          money: 498,
-          href: "/detail/1018",
-        },
-        {
-          src: "http://qiniu.verydog.cn//show.liluo.cc/2018011317120865819.png",
-          title: "小米影视会员卡",
-          con: "畅享海量片库",
-          money: 498,
-          href: "/detail/1018",
-        },
       ],
     };
   },
@@ -875,7 +735,7 @@ export default {
   .home-swiper
     height: 5rem
 
-  .home-index .tab-box.mi-tj .nav-mi-tj a
+  .home-index  .nav-mi-tj a
     display: block
     width: 25%
   .home-index .shop-box
